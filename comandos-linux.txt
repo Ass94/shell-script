@@ -1,0 +1,13 @@
+Comandos:
+Descompactar: unzip imagens.zip
+
+Remover: rm
+
+Criar pasta: mkdir 
+
+$1 (Recebe a variável passada como parâmetro)
+$2 (Recebe a segunda variável passada como parâmetro)
+
+$@ (Engloba todos os parâmetros)
+
+*.jpg (* pode ser qualquer caractere que venha antes)
