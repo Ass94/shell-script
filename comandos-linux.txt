@@ -11,3 +11,28 @@ $2 (Recebe a segunda variável passada como parâmetro)
 $@ (Engloba todos os parâmetros)
 
 *.jpg (* pode ser qualquer caractere que venha antes)
+
+awk (processamento de texto)
+
+awk -F. (F=field. recorta o texto até o ponto (.))
+
+Busca pelo nome e remove a extensão do arquivo:
+ls algoritmos.jpg | awk -F. '{print $1}'
+
+-d verifica se o diretório existe.
+
+! negação
+
+Recursão: Chamar a função dentro dela mesmo.
+
+
+date: comando para imprimir data e hora.
+
+date +%F : comando para imprimir a data formatada.
+
+date +%F,%H:%M%S : Comando para imprimir data e hora formatada.
+
+-n: não vá para uma nova linha.
+
+echo "Shell " > arquivo.txt (O arquivo.txt sempre será sobrescrito)
+echo "Shell " >> arquivo.txt (O mesmo arquivo será mantido acrescentado o valor a cada vez que for executado)
