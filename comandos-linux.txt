@@ -36,3 +36,7 @@ date +%F,%H:%M%S : Comando para imprimir data e hora formatada.
 
 echo "Shell " > arquivo.txt (O arquivo.txt sempre será sobrescrito)
 echo "Shell " >> arquivo.txt (O mesmo arquivo será mantido acrescentado o valor a cada vez que for executado)
+
+Filtrar determinado elemento de um arquivo:
+cat apache.log | grep 197.14.84.217
+
